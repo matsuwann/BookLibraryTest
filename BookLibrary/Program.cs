@@ -28,7 +28,8 @@ namespace BookLibrary
             myBestBooksLibrary.AddBook(top1Book);
             myBestBooksLibrary.AddBook(top2Book);
 
-            myBestBooksLibrary.SearchBook("A");
+            myBestBooksLibrary.SearchBook("Rowling");
+            myBestBooksLibrary.DisplayBookInfo(top1Book);
            
         }
     }
